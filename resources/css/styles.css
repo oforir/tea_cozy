@@ -39,3 +39,18 @@ nav span {
 nav a {
   color: seashell;
 }
+
+/* General styles of the main section */
+
+.main-content {
+  display: flex;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Specific styles for the main section */
