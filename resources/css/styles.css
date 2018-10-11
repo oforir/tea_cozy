@@ -10,6 +10,7 @@ body {
   color: seashell;
 }
 
+
 /* Header styles */
 header {
   display: flex;
@@ -98,11 +99,15 @@ h4 {
   margin: 10px;
 }
 
-#location {
-  width: 1200px;
+#locations {
   height: 500px;
   padding-top: 70px;
   background-image: url("../images/loc-background.jpg");
+}
+
+#locations .flex-container {
+  margin: auto;
+  width: 1100px;
 }
 
 .tea-items {
@@ -119,4 +124,20 @@ h4 {
   display: block;
   font-weight: bold;
   text-align: center;
+}
+
+.locations.flex-container {
+  padding-top: 5px;
+}
+
+.shop-location {
+  background-color: black;
+  opacity: 1;
+  width: 300px;
+  margin: 5px 20px;
+  padding: 10px;
+  flex-basis: 280px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
