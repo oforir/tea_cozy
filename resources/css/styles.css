@@ -141,3 +141,14 @@ h4 {
   flex-direction: column;
   justify-content: center;
 }
+
+#info {
+  height: 200px;
+}
+
+/* Footer styles */
+
+footer {
+  text-align: left;
+  padding-left: 20px;
+}
